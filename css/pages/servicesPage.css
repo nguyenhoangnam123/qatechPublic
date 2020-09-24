@@ -1,0 +1,92 @@
+.contact-image-wrap{
+  min-height:60vh;
+  background: url('/img/background/building11.jpg') no-repeat center left scroll;
+  background-size: cover 
+}
+.services-info-wrap{
+  padding: 5vh 10vw 10vh;
+  background: #1b75bc;
+  min-height: 40vh
+}
+.services-info-wrap h1, .services-info-wrap p{
+  text-align: center;
+  color:#fff
+}
+.read-more-wrap{
+  display: block;
+}
+.btn-readmore{
+  background: #fff;
+  border-radius: 5px;
+  color: #343434;
+  margin: 0 auto;
+  display: inline-block;
+  margin-top:3vh;
+  border-color: #343434;
+  background: transparent
+}
+/* detail link */
+.services-detail-security, .services-detail-hospital{
+  padding: 10vh 10vw
+}
+.services-detail-item{
+  min-height: 40vh
+}
+#security img, #hospital img, #it img{
+  width:100%;
+  position: relative;
+}
+
+.services-detail-content-wrap h1{
+  font-weight:bold !important;
+  font-size:2em !important;
+  line-height: 1.2;
+  text-transform: uppercase
+}
+.services-detail-content-wrap h1 a{
+  text-decoration: none;
+  color:#343434
+}
+.services-detail-image-wrap{
+  position: relative;
+  display: flex;
+  align-items: center
+}
+.services-detail-security{
+  position: relative;
+}
+.services-detail-item{
+  display: flex;
+  align-items: center
+}
+.services-detail-hospital{
+  background: #1b75bc;
+}
+.services-detail-hospital h1 a, .services-detail-hospital p{
+  color:#fff
+}
+.services-detail-hospital .btn-readmore{
+  color:#fff;
+  border-color: #fff
+}
+.scroll-down-arrow{
+  z-index: 9999;
+  position: absolute;
+  font-size: 1.5em;
+  color:#fff;
+  left:0;
+  right:0;
+  bottom:-8vh;
+  display: inline-block;
+  line-height: 2.75em;
+  width:2.75em;
+  height: 2.75em;
+  /* background: #fff; */
+  margin:0 auto;
+  cursor:pointer;
+  /* box-shadow:rgba(7, 7, 7, 0.5) 0px 3px 15px 0px; */
+  text-align: center;
+  border-radius:50%;
+  /* clip-path: polygon(0 0, 100% 0, 50% 100%); */
+  animation: updown 1s infinite 
+}

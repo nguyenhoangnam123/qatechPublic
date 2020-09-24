@@ -1,0 +1,43 @@
+.news{
+  position: relative;
+}
+.news{
+  padding: 10vh 10vw;
+}
+.news .news-wrap{
+  min-height: 10vh;
+  padding: 5vh 0 0;
+  overflow: hidden;
+  background: #fff
+}
+@media (max-width: 576px){
+  .news{
+    padding: 5vh 5vw;
+  } 
+    /* h1{
+      font-size: 1.5em !important
+    } */
+    .news h2{
+      font-size: 1.5em !important  
+    }
+    .thumb-content{
+      text-align: center !important
+    }
+    .thumb-wrap{
+      padding:0      
+    }
+    .news .news-wrap{
+      padding:5vh 0
+    }
+    .thumb-content h2{
+      text-align: center
+    }
+}
+@media only screen and (min-width: 567px) and (max-width: 991px)  {
+  .news{
+    padding: 5vh 10vw
+  }
+  .news .news-wrap{
+    padding-top:5vh !important
+  }
+}

@@ -1,0 +1,28 @@
+.form-article{
+  padding: 5vh 10vw;
+}
+.form-article a{
+  margin-bottom: 2vh
+}
+.form-group label{
+    color:#343434 !important
+}
+.form-group textarea:focus{
+    color:#343434 !important
+}
+.form-group input:focus{
+    color:#343434 !important
+}
+nav{
+  position: relative !important;
+  padding: 1vh 10vw !important;
+}
+nav a{
+  color:#fff !important;
+  text-transform: uppercase !important;
+  font-size: .8rem;
+  font-weight: 500
+}
+.catType label{
+  display: block
+}

@@ -1,0 +1,111 @@
+.service-wrap {
+  background: #1b75bc;
+  width: 100%;
+  padding: 10vh 5vw;
+}
+.service-wrap p {
+  padding: 0 5vw;
+}
+.service-wrap .servicesContent-wrap {
+  z-index: 99;
+  /* background: blue */
+}
+.service-wrap .servicesContent-wrap .servicesContent-justified {
+  position: relative;
+  padding-top: 5vh;
+}
+
+.service-wrap img {
+  width: 100%;
+}
+.service-wrap h1 {
+  text-align: center;
+  text-transform: uppercase;
+  /* color:#343434; */
+  color: #fff;
+  margin-top: 0;
+}
+.service-wrap p {
+  text-align: center;
+  color: #fff;
+}
+.servicesContent-justified h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 4vh;
+}
+.servicesContent-justified a:hover {
+  text-decoration: none;
+}
+.servicesContent-justified a h2 {
+  text-decoration: none;
+  color: #fff;
+}
+.servicesContent-justified p {
+  background: #fff;
+  text-align: center;
+}
+.btn-services {
+  text-transform: uppercase;
+  font-size: 1.2em;
+  text-decoration: none;
+  display: block;
+  line-height: 1.2em;
+  margin-top: 2vh;
+  text-align: center;
+}
+.servicesIcon {
+  width: 80px;
+  height: 80px;
+  padding: 15px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  margin: auto;
+  /* animation: rotate 1s linear 0s 1 reverse; */
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+.servicesIcon:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in;
+}
+.servicesIcon img {
+  width: 100%;
+}
+@media (max-width: 575px) {
+  .service-wrap {
+    padding: 5vh 5vw;
+  }
+  .servicesIcon {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    border: 2px solid #fff;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .productInfo-wrap {
+    text-align: left;
+  }
+  .servicesIcon {
+    width: 70px;
+    height: 70px;
+    padding: 15px;
+    border: 3px solid #fff;
+  }
+  .servicesContent-justified h2 {
+    font-size: 0.9em !important;
+  }
+}
+@media (max-width: 768px) {
+  .productInfo-wrap {
+    text-align: center;
+  }
+}

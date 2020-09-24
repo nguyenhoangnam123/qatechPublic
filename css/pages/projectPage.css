@@ -1,0 +1,134 @@
+.contact-image-wrap{
+  background: url('/img/background/building4.jpg') top center no-repeat;
+  background-size:cover;
+  min-height: 60vh;
+}
+.project-entry{    
+  min-height: 40vh;
+  padding: 5vh 10vw 10vh;
+}
+.project-entry h1, .project-entry p{
+  text-align: center;
+  /* color:#fff   */
+}
+.categrory-wrap-btn{
+  display: inline-block;
+  margin: auto;
+  display: block
+}
+.categrory-wrap-btn .btn{
+  background: #1b75bc;
+}
+.security-project{
+  min-height:10vh;
+  padding: 0 10vw 10vh;
+  position: relative;
+}
+
+.project-fig{
+  margin-bottom:2vh;
+  position: relative;
+}
+.project-fig img{
+  width:100%
+}
+.project-fig-content{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  display: block;
+  width:100%;
+  height: 100%;
+  color:#fff;
+  background: rgba(27,117,188,0.5);
+  padding: 1vh 10%;
+  opacity: 0;
+  transition: all .2s ease-in-out
+}
+
+.project-fig:hover .project-fig-content{
+  opacity:1;
+}
+.project-entry h1{
+  text-transform: uppercase
+}
+.project-fig-content{
+  padding-top:5vh
+}
+.project-fig-content h2{
+  font-size: 1.5em
+}
+
+@media (max-width: 575px){
+    .project-entry{
+      padding: 5vh 5vw
+    }
+    .security-project{
+      padding: 0 5vw
+    }
+    .breadcumb-wrap{
+      width:95%
+    }
+    .project-fig-content{
+      opacity: 1;
+      padding: 0;
+      text-align: center;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      width:100%;
+      height: 100%;
+    }
+    .project-fig-content h2{
+      width: 100%
+    }
+    .project-fig-content>div{
+      display: none
+    }
+    .categrory-wrap-btn{
+      margin: 0;
+      width:100%
+    } 
+    .categrory-wrap-btn .btn{
+      display: block;
+      width:100%;
+      margin-bottom: 1vh
+    }    
+}
+@media (max-width: 787px){
+    .project-entry{
+        padding: 5vh 5vw
+    }
+    .security-project{
+      padding: 0 5vw
+    }
+    .project-fig-content{
+      opacity: 1;
+      padding: 0;
+      text-align: center;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      width:100%;
+      height: 100%;
+    }
+    .project-fig-content h2{
+      font-size:1em;
+      width:100%
+    }
+    .project-fig-content>div{
+      display: none
+    }
+    .breadcumb-wrap{
+      width:95%
+    }
+    .categrory-wrap-btn{
+      margin: 0;
+      width:100%
+    } 
+    .categrory-wrap-btn .btn{
+      display: block;
+      width:100%;
+      margin-bottom: 1vh
+    }    
+}

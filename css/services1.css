@@ -1,0 +1,35 @@
+.service-wrap{
+  padding:10vh 0
+}
+.services-row{
+  min-height: 40vh;
+  background: url('/img/anqp/army2.jpg') no-repeat top right;
+  background-size: 70%;   
+}
+.services-row .content{
+  background: #1b75bc no-repeat top left;
+  background-size: cover;
+  padding: 10vh 5vw;   
+  clip-path: polygon(0 0, 100% 0, calc(100%*5/7) 100%, 0 100%)
+}
+.services-row .content h1{
+  text-align: left;
+  line-height: 20vh;
+}
+.services-row .content h1 a{
+  color:#fff;
+  text-decoration: none
+}
+#chemical{
+  background: url('/img/anqp/army.jpg') no-repeat left top;
+  background-size: 70%;  
+}
+#chemical .content{
+  clip-path: polygon(0 0, 100% 0, 100% 100%, calc(100%*2/7) 100%)     
+}
+#chemical h1{
+  text-align: right  
+}
+#chemical .content{
+    background: #bababa no-repeat top left;  
+}

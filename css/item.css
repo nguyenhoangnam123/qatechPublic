@@ -1,0 +1,118 @@
+.itemList{
+  background: #1b75bc;
+  padding: 10vh 5vw;
+  min-height: 50vh;
+  box-shadow: 0px 10px 30px 0 rgba(7,7,7,.2);
+  transform: translateY(-50vh);
+  transition: all 1s linear;
+  z-index: 9999;
+  position: relative; 
+}
+.itemList h1 {
+  display: block;
+  color:#fff;
+  text-align:center;
+  margin-bottom: 5vh !important
+}
+.catLabel{
+  color:#fff;
+  text-align: center  
+}
+.selectedCat{
+  border: 2px solid #fff !important;
+  color:#fff;
+  border-radius:5px 
+}
+.productInfo-wrap{
+  background: transparent;
+  color:#fff;
+}
+.productInfo h2 a{
+  color:#fff
+}
+.btn-readmore{
+  border-radius:0px;
+  line-height:1.2;
+  background:transparent;
+  color:#fff;
+  border: 2px solid #fff;
+  position: relative
+}
+.btn-readmore:hover{
+  color:#f0f0f0 !important
+}
+.select-wrap{
+  padding-top: 2vh  
+}
+.productImage-wrap{
+  position: relative;
+  display: table;
+  height:100%  
+}
+.productImage-wrap img{
+  display: table-cell;
+  vertical-align: middle;
+  margin:auto  
+}
+select{
+  width:100% !important;
+  white-space: normal;
+  overflow: hidden;
+}
+select option{
+  width: 100px;
+  display: block;
+  box-sizing: border-box
+}
+.catLayer-item label{
+  display: block;
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom:15px
+}
+.productInfo-description-wrap h2{
+  font-weight: 400
+}
+.productInfo-description-wrap h2 a:hover{
+  text-decoration: none
+}
+.custom-select{
+  border-radius:0 !important
+}
+@media (max-width: 576px){
+  .productInfo-wrap{
+    text-align: center
+  }
+  .productInfo h2 a{
+    text-transform: uppercase
+  }
+  .productInfo h2{
+    font-size: 1.2em
+  }
+  .itemList{
+    padding:5vh 5vw
+  }
+  .itemList .form-group div{
+    padding-top:0 !important
+  }
+  .catLayer-item{
+    margin-bottom: 2vh
+  }
+
+}
+@media only screen and (min-width: 577px) and (max-width: 767px)  {
+  .productInfo-wrap{
+    text-align: center
+  }
+  .catLayer-item label{
+    margin-top:10px
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px)  {
+  .findList .form-group div{
+    padding-top:0 !important
+  }
+  .catLayer-item label{
+    margin-top:15px
+  }
+}

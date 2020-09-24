@@ -1,0 +1,10 @@
+.solution{
+  min-height:60vh;
+  background: #1b75bc; 
+}
+.solution-wrap{
+  padding: 2vh 10vw;
+}
+.solution .item{
+  min-height:20vh;
+}

@@ -1,0 +1,39 @@
+[
+    {
+        "services":"an ninh quốc phòng",
+        "name":"cổng dò kim loại",
+        "category":"He thong soi chieu",
+        "brand":"Rapiscan"
+    },
+    {
+        "services":"an ninh quốc phòng",
+        "name":"kiểm tra hành lý và bưu kiện",
+        "category":"hệ thống soi chiếu",
+        "brand":"Rapiscan"
+    },
+    {
+        "services":"bệnh viện, y tế",
+        "name":"hệ thống khí y tế",
+        "category":"hệ thống kĩ thuật bệnh viện",
+        "brand":"Sagomed"
+    },
+    {
+        "services":"bệnh viện, y tế",
+        "name":"thiết bị khí trung tâm",
+        "category":"He thong ki thuat benh vien",
+        "brand":"Sagomed"
+    },
+    {
+        "services":"công nghệ thông tin",
+        "name":"server",
+        "category":"Server, Storage & Networking",
+        "brand":"MSI"
+    },
+    {
+        "services":"công nghệ thông tin",
+        "name":"storage",
+        "category":"Server, Storage & Networking",
+        "brand":"MSI"
+    }
+
+]

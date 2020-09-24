@@ -1,0 +1,5 @@
+.contact-image-wrap{
+    min-height: 60vh;
+    background: url('/img/background/building4.jpg');
+    background-size: cover 
+}

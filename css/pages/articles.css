@@ -1,0 +1,64 @@
+.contact-image-wrap{
+  min-height: 60vh;
+  background: url('/img/background/building6.jpg') center center no-repeat;
+  background-size: cover 
+}
+.breadcumb-wrap{
+  width:80vw;
+  margin: 10px auto
+}
+ol{
+  background: #fff !important
+}
+.item-wrap{
+  padding:0 10vw 5vh
+}
+.rightPanel>.row{
+  padding-left: 15px
+}
+/* left module */
+ul{
+  padding-left: 0
+}
+.leftPanel>.row>.col-md-12{
+  padding: 0 !important
+}
+.left-module-label{
+  font-size: 1.5em  
+}
+.left-module-label a{
+  text-decoration: none 
+}
+.left-module-item{
+  margin-bottom: 2vh  
+}
+.left-module-item img{
+  width: 100%
+}
+/* right module */
+.right-module-item{
+  padding: 2vh 15px;
+  border-bottom: 1px solid #1b75bc
+}
+.right-module{
+  margin-bottom: 2vh
+}
+.right-module-label{
+  background: #1b75bc;
+  padding: 10px 15px; 
+  color:#fff
+}
+@media (max-width: 767px){
+    .item-wrap{
+      padding:0 5vw 5vh
+    }
+    .breadcumb-wrap{
+      width:95%
+    }
+    .leftPanel>.row{
+      padding-right: 0px
+    }
+    .rightPanel>.row{
+      padding-left: 0px
+    }
+}
